@@ -14,10 +14,10 @@ The goal? A green square in oXygen.
         <title level="book">Montage of a Dream Deferred</title>
         <author>Langston Hughes</author>
         <date when="1951"/>
-    </source>
-    <poem>
+    </source> 
+    <poem> 
         <title level="inner">Good Morning</title>
-        <lineGroup>
+        <lineGroup>   
             <line n="1">Good morning, daddy!</line>
             <line n="2">I was born here, he said,</line>
             <line n="3">watched <placeName ref="NYC-Harlem">Harlem</placeName> grow</line>
@@ -50,7 +50,7 @@ The goal? A green square in oXygen.
             <line n="24">Yet there're bars</line>
             <line n="25">at each gate.</line>
         </lineGroup>
-        <lineGroup>
+        <lineGroup> 
             <line n="26">What happens</line>
             <line n="27">to <motif>a dream deferred</motif>?</line>
         </lineGroup>

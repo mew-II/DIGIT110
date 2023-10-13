@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="RNG%20Excercise%202.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>
+        <title>Eat Your Young</title>
+        <artist>Hozier</artist>
+        <source url="https://www.musixmatch.com/">https://www.musixmatch.com/</source>
+        <copyright>Songwriters: Daniel Tannenbaum, Craig Balmoris, Stuart Johnson, Andrew John
+            Hozier-byrne, Peter Gonzalez, Tyler Mehlenbacher, Sergiu Gherman, Marius Feder, Daniel
+            Krieger. For non-commercial use only.</copyright>
+    </metadata>
+    <song>
+        <linegroup>
+            <line n="1">I'm starvin', darlin', let me put my lips to somethin'</line>
+            <line n="2">Let me wrap my teeth around the world</line>
+            <line n="3">Start carvin', darlin', I want to smell the dinner cookin'</line>
+            <line n="4">I want to feel the edges start to burn</line>
+        </linegroup>
+        <linegroup>
+            <line n="5">Honey, I want to race you to the table</line>
+            <line n="6">If you hesitate, the gettin' is gone</line>
+            <line n="7">I won't lie, if there's somethin' to be gained</line>
+            <line n="8">There's money to be made, whatever is still to come</line>
+        </linegroup>
+        <linegroup>
+            <line n="9">Get some</line>
+            <metaphor
+                expl="in these lines Hozier references rather graphic actions, pulling rope before a flood comes which would comdemn everyone else to death despite an escape once existing, and throwing enough rope until the legs have swung referencing mass hanging. This is followed by the line seven new ways that you can eat your young, a line you'd see in a cooking blog showing how children's lives seem to matter as little as livestock to the song's target"
+                    ><line n="10">Pull up the ladder when the flood comes</line>
+                <line n="11">Throw enough rope until the legs have swung</line>
+                <line n="12">Seven new ways that you can eat your young</line></metaphor>
+        </linegroup>
+        <linegroup>
+            <line n="13">Come and get some</line>
+            <metaphor
+                expl="both lines here speak of how detrimental war is on developing humans, and despite this many people seek to start wars for profit rather than necessity"
+                    ><line n="14">Skinnin' the children for a war drum</line>
+                <line n="15">Put <mistake
+                        correction="'putting food on the table' is the correct line">in front
+                        of</mistake> the table, sellin' bombs and guns</line></metaphor>
+            <line n="16">It's quicker and easier to eat your young</line>
+        </linegroup>
+        <linegroup>
+            <line n="17">You can't buy this fineness, let me see the heat get to you</line>
+            <line n="18">Let me watch the dressin' start to peel</line>
+            <line n="19">It's a kindness, highness, crumbs enough for everyone</line>
+            <line n="20">Old and young are welcome to the meal</line>
+        </linegroup>
+        <linegroup>
+            <line n="21">Honey, I'm makin' sure the table's made</line>
+            <line n="22">We can celebrate the good that we've done</line>
+            <metaphor expl="these lines speak of greed, as long as there is ground to break and something to take, they won't change their ways"><line n="23">I won't lie, if there's somethin' still to take</line>
+            <line n="24">There is ground to break, whatever's still to come</line></metaphor>
+        </linegroup>
+        <linegroup>
+            <line n="25">Get some</line>
+            <line n="26">Pull up the ladder when the flood comes</line>
+            <line n="27">Throw enough rope until the legs have swung</line>
+            <line n="28">Seven new ways that you can eat your young</line>
+        </linegroup>
+        <linegroup>
+            <line n="29">Come and get some</line>
+            <line n="30">Skinnin' the children for a war drum</line>
+            <line n="31">Put in front of the table, sellin' bombs and guns</line>
+            <line n="32">It's quicker and easier to eat your young</line>
+        </linegroup>
+    </song>
+</root>

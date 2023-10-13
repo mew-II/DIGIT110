@@ -1,20 +1,21 @@
 start = root
 root = element xml {source, poem}
-source = element source {title+|author?|date?}
+source = element source {(title|author|date)*}
 
-title = element title{text}
+title = element title{mixed{level}}
 level = attribute level{text}
 
 author = element author{text}
 
-date = element date{empty,"when"}
+date = element date{empty*,when}
 when = attribute when{xsd:integer}
 
-poem = element poem{title,lineGroup}
-lineGroup = element lineGroup{line}
+poem = element poem{title,lineGroup+}
+lineGroup = element lineGroup{line+} 
 
-line = element line{"n"|text*|place*|motif*}
+line = element line{mixed{(n|place|motif|placeName)*}}
 n = attribute n{text}
-place = element place{"ref"|text}
+place = element place{mixed{ref+}}
+placeName = element placeName{mixed{ref+}}
 ref = attribute ref{text}
 motif = element motif{text}
