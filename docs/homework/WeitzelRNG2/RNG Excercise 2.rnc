@@ -1,12 +1,14 @@
 start = root
 root = element root{metadata,song}
 metadata = element metadata{(source|title|artist|copyright)+}
-song = element song {lineGroup+}
+song = element song {(lineGroup|chorus)+}
+chorus = element chorus {lineGroup+,n}
 source = element source {url,text?}
 url = attribute url {xsd:anyURI}
 title = element title {text}
 artist = element artist {text}
-copyright = element copyright{text}
+copyright = element copyright{mixed{(songwriter|artist)+}}
+songwriter = element songwriter{text}
 lineGroup = element linegroup {(metaphor|line)*}
 line = element line {mixed{n,mistake*}}
 mistake = element mistake{text,correction}

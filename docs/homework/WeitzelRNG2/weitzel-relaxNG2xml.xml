@@ -6,9 +6,12 @@
         <title>Eat Your Young</title>
         <artist>Hozier</artist>
         <source url="https://www.musixmatch.com/">https://www.musixmatch.com/</source>
-        <copyright>Songwriters: Daniel Tannenbaum, Craig Balmoris, Stuart Johnson, Andrew John
-            Hozier-byrne, Peter Gonzalez, Tyler Mehlenbacher, Sergiu Gherman, Marius Feder, Daniel
-            Krieger. For non-commercial use only.</copyright>
+        <copyright>Songwriters: <songwriter>Daniel Tannenbaum</songwriter>, <songwriter>Craig
+                Balmoris</songwriter>, <songwriter>Stuart Johnson</songwriter>, <artist>Andrew John
+                Hozier-byrne</artist>, <songwriter>Peter Gonzalez</songwriter>, <songwriter>Tyler
+                Mehlenbacher</songwriter>, <songwriter>Sergiu Gherman</songwriter>,
+                <songwriter>Marius Feder</songwriter>, <songwriter>Daniel Krieger</songwriter>. For
+            non-commercial use only.</copyright>
     </metadata>
     <song>
         <linegroup>
@@ -23,7 +26,7 @@
             <line n="7">I won't lie, if there's somethin' to be gained</line>
             <line n="8">There's money to be made, whatever is still to come</line>
         </linegroup>
-        <linegroup>
+        <chorus n="1"><linegroup> 
             <line n="9">Get some</line>
             <metaphor
                 expl="in these lines Hozier references rather graphic actions, pulling rope before a flood comes which would comdemn everyone else to death despite an escape once existing, and throwing enough rope until the legs have swung referencing mass hanging. This is followed by the line seven new ways that you can eat your young, a line you'd see in a cooking blog showing how children's lives seem to matter as little as livestock to the song's target"
@@ -40,7 +43,7 @@
                         correction="'putting food on the table' is the correct line">in front
                         of</mistake> the table, sellin' bombs and guns</line></metaphor>
             <line n="16">It's quicker and easier to eat your young</line>
-        </linegroup>
+        </linegroup></chorus>
         <linegroup>
             <line n="17">You can't buy this fineness, let me see the heat get to you</line>
             <line n="18">Let me watch the dressin' start to peel</line>
@@ -50,10 +53,12 @@
         <linegroup>
             <line n="21">Honey, I'm makin' sure the table's made</line>
             <line n="22">We can celebrate the good that we've done</line>
-            <metaphor expl="these lines speak of greed, as long as there is ground to break and something to take, they won't change their ways"><line n="23">I won't lie, if there's somethin' still to take</line>
-            <line n="24">There is ground to break, whatever's still to come</line></metaphor>
+            <metaphor
+                expl="these lines speak of greed, as long as there is ground to break and something to take, they won't change their ways"
+                    ><line n="23">I won't lie, if there's somethin' still to take</line>
+                <line n="24">There is ground to break, whatever's still to come</line></metaphor>
         </linegroup>
-        <linegroup>
+        <chorus n="2"><linegroup>
             <line n="25">Get some</line>
             <line n="26">Pull up the ladder when the flood comes</line>
             <line n="27">Throw enough rope until the legs have swung</line>
@@ -64,6 +69,6 @@
             <line n="30">Skinnin' the children for a war drum</line>
             <line n="31">Put in front of the table, sellin' bombs and guns</line>
             <line n="32">It's quicker and easier to eat your young</line>
-        </linegroup>
+        </linegroup></chorus>
     </song>
 </root>
